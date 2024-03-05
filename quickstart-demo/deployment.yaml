@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: apache2
+        image: tomcat:9.0-jdk21-corretto-al2
         ports:
           - containerPort: 80
         imagePullPolicy: IfNotPresent
